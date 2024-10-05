@@ -1,0 +1,75 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.lembar-form {
+  background-color: #fff5e0;
+  text-align: center;
+  height: 50vh;
+}
+
+.lembar-form form {
+  padding: 10vh;
+}
+
+.banner-logo {
+  text-align: center;
+  background-color: #c70039;
+  padding: 10px;
+}
+
+.navbar {
+  text-align: center;
+  background-color: #141e46;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 50px 0px 50px;
+}
+
+.submit-button {
+  height: 50px;
+  width: 100px;
+}
+
+.submit-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: 1px solid red; */
+}
+
+.table__content {
+   display: flex; 
+   justify-content: center;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+
+.table th,
+.table td {
+  border: 2px solid rgb(140, 140, 140); 
+  padding: 8px; 
+  text-align: left; 
+}
+
